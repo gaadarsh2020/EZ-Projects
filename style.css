@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* CSS VARIABLES */
 :root{
@@ -13,7 +16,7 @@
 #navbar{
      display: flex;
      align-items: center;
-     position: relative;
+     position: sticky;
      top: 0px;
 } 
 
@@ -118,7 +121,7 @@ border-radius: 50px;
 }
 
 #services .box img{
-    height: 156px;
+    height: 110px;
     margin: auto;
     display: block;
 }
@@ -132,7 +135,7 @@ border-radius: 50px;
 /* Clinet section*/
 #client-section{
     position: relative;
-    height: 344px;
+    
 
 }
 
@@ -215,7 +218,7 @@ footer{
 /* Utility Class*/
 .h-primary{
     font-family: 'Bree Serif',serif;
-    font-size: 3.8rem;
+    font-size: 7.8rem;
     padding: 12px;
     text-align: center;     
 }
