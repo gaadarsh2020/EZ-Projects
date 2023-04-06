@@ -81,7 +81,7 @@ border-radius: 50px;
 #home::before{
     content:"";
     position: absolute;
-    background: url('/bg4.webp');
+    background: url('./bg4.webp');
     height: 642px;
     top: 0px;
     left: 0px;
